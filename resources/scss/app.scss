@@ -1,6 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "/resources/scss/header_style.scss";
+@import "/resources/scss/main_style.scss";
+@import "/resources/scss/footer_style.scss";
 
 ul{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }

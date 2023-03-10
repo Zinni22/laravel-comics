@@ -1,10 +1,10 @@
 
-<header class="p-4">
+<header>
     <div class="container d-flex">
 
         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
 
-        <ul class="d-flex justify-content-between">
+        <ul class="d-flex">
             <li>CHARACTERS</li>
             <li>COMICS</li>
             <li>MOVIES</li>
@@ -19,11 +19,3 @@
 
     </div>
 </header>
-
-<style lang="scss">
-header{
-    background-color: pink;
-    height: 60px;
-    
-}
-</style>
